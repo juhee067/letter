@@ -2,8 +2,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="main">
-      <div className="container">
+    <div className="container">
+      {" "}
+      <div className="content">
         {" "}
         <div class="homeLetter">
           <h2>숭이야 생일축하한다!</h2>

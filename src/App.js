@@ -2,6 +2,7 @@ import "./App.css";
 import "./css/Main.scss";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
+import Gift from "./pages/Gift";
 function App() {
   return (
     <div className="container">
@@ -29,7 +30,7 @@ function App() {
         </ul>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<div>보여질 영역 : 상세페이지</div>} />
+          <Route path="/gift" element={<Gift />} />
         </Routes>
       </div>
     </div>
