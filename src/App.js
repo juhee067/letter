@@ -3,6 +3,9 @@ import "./css/Main.scss";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Gift from "./pages/Gift";
+import First from "./pages/First";
+import Second from "./pages/Second";
+import Third from "./pages/Third";
 function App() {
   return (
     <div className="container">
@@ -30,7 +33,7 @@ function App() {
         </ul>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/gift" element={<Gift />} />
+          <Route path="/Gift/*" element={<Gift />} />
         </Routes>
       </div>
     </div>

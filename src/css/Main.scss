@@ -263,8 +263,17 @@ gap: 50px;
         
         display: flex;
         justify-content: space-between;
-      }  }
-    
+      }  
+    .none {
+      display: none;
+    }
+    .show {
+      display: block;
+    }
+    }
+    .firstItem{
+      height: 100px;
+    }
        }
       
        
